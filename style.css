@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+/* color variables */
+:root {
+    /* Primary */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* Neutral */
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    max-width: 340px;
+    margin: 60px auto;
+    border-radius: 0.55rem;
+    overflow: hidden;
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 3.3rem;
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 3.3rem;
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 3.3rem;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: "Big Shoulders Display", sans-serif;
+    padding: 1.8rem 1.5rem 1.8rem 0;
+    font-size: 2.5rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+
+}
+
+.learn-more1 {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    color: var(--bright-orange);
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-weight: 700;
+    padding: 1rem 2.2rem;
+    font-size: 0.9rem;   
+}
+
+.learn-more2 {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    color: var(--dark-cyan);
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-weight: 700;
+    padding: 1rem 2.2rem;
+    font-size: 0.9rem;
+}
+
+.learn-more3 {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    color: var(--very-dark-cyan);
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-weight: 700;
+    padding: 1rem 2.2rem;
+    font-size: 0.9rem;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+    .card {
+        min-width: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        margin-bottom: 6rem;
+        padding-right: 1.2rem;
+    }
+
+    h1 {
+        margin-top: 1rem;
+    }
+
+    .learn-more1:hover {
+        background-color: var(--bright-orange);
+        color: var(--transparent-white);
+        border: 2px solid var(--transparent-white);
+        cursor: pointer;
+    }
+
+    .learn-more2:hover {
+        background-color: var(--dark-cyan);
+        color: var(--transparent-white);
+        border: 2px solid var(--transparent-white);
+        cursor: pointer;
+    }
+
+    .learn-more3:hover {
+        background-color: var(--very-dark-cyan);
+        color: var(--transparent-white);
+        border: 2px solid var(--transparent-white);
+        cursor: pointer;
+    }
+
+
+
+}
