@@ -69,7 +69,6 @@ p {
     color: var(--bright-orange);
     display: block;
     text-align: center;
-    padding: 1rem;
     border-radius: 1.5rem;
     border: none;
     font-weight: 700;
@@ -83,7 +82,6 @@ p {
     color: var(--dark-cyan);
     display: block;
     text-align: center;
-    padding: 1rem;
     border-radius: 1.5rem;
     border: none;
     font-weight: 700;
@@ -97,7 +95,6 @@ p {
     color: var(--very-dark-cyan);
     display: block;
     text-align: center;
-    padding: 1rem;
     border-radius: 1.5rem;
     border: none;
     font-weight: 700;
